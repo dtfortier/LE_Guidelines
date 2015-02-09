@@ -1,0 +1,85 @@
+/* LE Guidlines 
+
+* Custom layout for Standards site. 
+
+*/
+
+
+body {font-family: 'PT Sans', sans-serif;position: relative;}
+a{}
+p{}
+
+/* Sections
+---------------------------------------------------------------------------- */
+
+.sg-section {margin-bottom: 32px;overflow: hidden;}
+.sg-section h1 {border-bottom: 2px solid #ddd;font-size: 32px;margin-bottom: 21px;}
+.sg-section h2 {font-family:"Bitter"; color:#B0B0B0;font-size: 18px;margin-bottom: 10px;}
+
+
+/* Headings
+---------------------------------------------------------------------------- */
+.sg h1,.sg h2,.sg h3 {font-weight: normal;margin:0}
+
+
+.sg-customer-info h1 {color: #447DB3;font-size: 26px;font-weight: bold;margin:3px 0;border-bottom:none;}
+.sg-customer-info h2 {color: #000000;font-size: 16px;font-weight: bold;margin:3px 0;border-bottom:none;font-family: 'PT Sans', sans-serif;}
+.sg-customer-info h3 {color: #909FAC;font-size: 13px;margin:3px 0;border-bottom:none;}
+
+
+/* Colors
+---------------------------------------------------------------------------- */
+.sg-color {
+  background: #fff;
+  border: 1px solid #bbb;
+  display: inline-block;
+  height: 89px;
+  margin: 0 .5em .5em 0;
+  padding: 5px;
+  position: relative;
+  width: 89px;
+}
+
+.sg-color-swatch {
+  display: block;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.sg-color-swatch span {
+  background: #000;
+  background: rgba(0,0,0,.7);
+  bottom: 0;
+  color: #fff;
+  font-size: .8em;
+  margin: 0;
+  opacity: 0;
+  padding: 5px 0;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.sg-color-swatch:hover span {
+  opacity: 1;
+}
+
+.sg-color--a .sg-color-swatch {background: #477DB3;}
+.sg-color--b .sg-color-swatch {background: #f79720;}
+.sg-color--c .sg-color-swatch {background: #f9f9f9;}
+.sg-color--d .sg-color-swatch {background: #edeced;}
+.sg-color--e .sg-color-swatch {background: #cbcccb;}
+.sg-color--f .sg-color-swatch {background: #4c5965;}
+.sg-color--g .sg-color-swatch {background: #364149;}
+
+/* Fancy
+---------------------------------------------------------------------------- */
+.sg-animated {
+  -webkit-transition: all 0.6s ease-out;  
+     -moz-transition: all 0.6s ease-out;
+      -ms-transition: all 0.6s ease-out;
+       -o-transition: all 0.6s ease-out;
+          transition: all 0.6s ease-out;
+}
