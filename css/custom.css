@@ -7,19 +7,32 @@
 
 body {font-family: 'PT Sans', sans-serif;position: relative;}
 a{}
-p{}
+p{color: rgba(65,65,65,1);font-size: 15px;line-height: 145%;margin-bottom: 15px;}
+
+/* Helpers
+---------------------------------------------------------------------------- */
+.wrap {background: rgba(168, 168, 168, 0.2);padding: 20px;margin-top: 20px;}
 
 /* Sections
 ---------------------------------------------------------------------------- */
+h1 {font-family:"Helvetica";font-size: 2.8em;font-weight: 100;margin-bottom: 36px;color: #333;}
+h2 {font-family:"Helvetica"; color:#B0B0B0;font-size: 18px;margin-bottom: 10px;}
 
-.sg-section {margin-bottom: 32px;overflow: hidden;}
-.sg-section h1 {border-bottom: 2px solid #ddd;font-size: 32px;margin-bottom: 21px;}
-.sg-section h2 {font-family:"Bitter"; color:#B0B0B0;font-size: 18px;margin-bottom: 10px;}
-
+.buttons-section {height: 100%;padding-top: 50px;background: #fff;}
+.colors-section {height: 100%;padding-top: 50px;background: #fff;}
+.fonts-section {height: 100%;padding-top: 50px;background: #fff;}
+.grids-section {height: 100%;padding-top: 50px;background: #fff;}
+.icons-section {height: 100%;padding-top: 50px;background: #fff;}
+.intro-section {height: 100%;padding-top: 50px;background: #fff;}
+.modals-section {height: 100%;padding-top: 50px;background: #fff;}
+.navigations-section {height: 100%;padding-top: 50px;background: #fff;}
+.notifications-section {height: 100%;padding-top: 50px;background: #fff;}
+.paging-section {height: 100%;padding-top: 50px;background: #fff;}
+.tables-section {height: 100%;padding-top: 50px;background: #fff;}
 
 /* Headings
 ---------------------------------------------------------------------------- */
-.sg h1,.sg h2,.sg h3 {font-weight: normal;margin:0}
+h1,h2,h3 {font-weight: normal;}
 
 
 .sg-customer-info h1 {color: #447DB3;font-size: 26px;font-weight: bold;margin:3px 0;border-bottom:none;}
@@ -27,6 +40,14 @@ p{}
 .sg-customer-info h3 {color: #909FAC;font-size: 13px;margin:3px 0;border-bottom:none;}
 
 
+/* Navigation
+---------------------------------------------------------------------------- */
+.list-group.panel > .list-group-item {}
+.list-group-submenu {margin-left:20px;}
+.list-group-item-success {color: #333;background-color: #EDF0F0;}
+.list-group-item {border: 1px solid #E0E0E0;}
+a.list-group-item-success:focus, a.list-group-item-success:hover {color: #333;background-color: #ccc;border-radius:0;}
+a.list-group-item-success {color: #333;}
 /* Colors
 ---------------------------------------------------------------------------- */
 .sg-color {
@@ -83,3 +104,67 @@ p{}
        -o-transition: all 0.6s ease-out;
           transition: all 0.6s ease-out;
 }
+
+
+
+/* Icons
+---------------------------------------------------------------------------- */
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('custom-icons/icomoon.eot?sgoj4q');
+	src:url('custom-icons/icomoon.eot?#iefixsgoj4q') format('embedded-opentype'),
+		url('custom-icons/icomoon.woff?sgoj4q') format('woff'),
+		url('custom-icons/icomoon.ttf?sgoj4q') format('truetype'),
+		url('custom-icons/icomoon.svg?sgoj4q#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-footprints:before {content: "\e602";}
+.icon-cursor:before {content: "\e603";}
+/* == FYI: custom ico-moon icon classes will start with 'icon-' == */
+
+/*:: Global Definition :: */
+
+.tick:before {content: "\f00c";font-family: FontAwesome;font-style: normal;font-weight: normal;} 
+.printExport:before {content: "\f02f";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.pdfExport:before {content: "\f1c1";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.xlsExport:before {content: "\f1c3";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.google:before {content: "\f1a0";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.yahoo:before {content: "\f19e";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.icon-bing:before {content: "\e600";font-style: normal;font-weight: normal;}
+.icon-impressions:before {content: "\e602";font-style: normal;font-weight: normal;}
+.icon-clicks:before {content: "\e603";font-style: normal;font-weight: normal;}
+.listen:before {content: "\f028";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.cursor:before {content: "\e603";font-style: normal;font-weight: normal;}
+.calls:before {content: "\f095";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.topFilter .selected .filterIcon:before {content: "\f0de";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+
+.line-graph:before {content: "\f201";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.avgPos:before {content: "\f080";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.eye:before {content: "\f06e";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.emails:before {content: "\f0e0";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.forms:before {content: "\f022";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.dollar-sign:before {content: "\f155";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.ctr:before {content: "\f0a6";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.avgPos:before {content: "\f080";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.pageViews:before {content: "\f06e";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.filterToolTip:before {content: "\f059";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.subTabToolTip:before {content: "\f059";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.carrot-left {content: "\f0d9";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.carrot-right {content: "\f0da";font-family: FontAwesome;font-style: normal;font-weight: normal;}

@@ -1,7 +1,11 @@
-<div class="sg-section">
-    
-    <h1 id="modals">Modals</h1>
-    
-       
-    
-</div>
+<section id="modals" class="modals-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Modals</h1>
+                    <p></p>
+                    <p>Modals will be here</p>
+                </div>
+            </div>
+        </div>
+    </section>
