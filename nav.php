@@ -9,7 +9,7 @@
                         </li>
                         
                          <div class="list-group panel">
-    <a href="#nav1" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#designbasics">UI Design Basics</a>
+    <a href="#nav1" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#intro">UI Design Basics</a>
     <div class="collapse" id="nav1">
       <a href="#intro" class="list-group-item">Localedge UI Standards</a>  
       <a href="#colors" class="list-group-item">Colors</a>
@@ -27,6 +27,19 @@
     <div class="collapse" id="nav2">
       <a href="" class="list-group-item">Bootstrap Framework</a>
       <a href="" class="list-group-item">Font Awesome Icons</a>
+    </div>
+    
+    <a href="#nav3" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#mocks-protos">Product Specific Standards</a>
+    <div class="collapse" id="nav3">
+      <a href="" class="list-group-item">SEO</a>
+      <a href="" class="list-group-item">SEM</a>
+      <a href="" class="list-group-item">Performance Overview</a>
+    </div>
+    
+     <a href="#nav4" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#mocks-protos">Mockups & Protoypes</a>
+    <div class="collapse" id="nav4">
+      <a href="" class="list-group-item">Fortier Projects</a>
+      <a href="" class="list-group-item">Prototypes</a>
     </div>
   </div>
                         

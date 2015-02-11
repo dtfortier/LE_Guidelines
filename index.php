@@ -35,17 +35,29 @@
 
         </div>
         <!-- /#wrapper -->
-        <script>
+        
+        <!-- Side Nav Accordian Script -->
+        <script> 
             $('#nav1').click(function(){ 
-  var $target = $($(this).data('target')); 
-  if(!$target.hasClass('in'))
-    $('.collapse .in').removeClass('in').height(0);    
-});
-     $('#nav2').click(function(){ 
-  var $target = $($(this).data('target')); 
-  if(!$target.hasClass('in'))
-    $('.collapse .in').removeClass('in').height(0);    
-});
+                var $target = $($(this).data('target')); 
+                if(!$target.hasClass('in'))
+                  $('.collapse .in').removeClass('in').height(0);    
+              });
+            $('#nav2').click(function(){ 
+                var $target = $($(this).data('target')); 
+                if(!$target.hasClass('in'))
+                  $('.collapse .in').removeClass('in').height(0);    
+              });
+            $('#nav3').click(function(){ 
+                var $target = $($(this).data('target')); 
+                if(!$target.hasClass('in'))
+                  $('.collapse .in').removeClass('in').height(0);    
+              });
+            $('#nav4').click(function(){ 
+                var $target = $($(this).data('target')); 
+                if(!$target.hasClass('in'))
+                  $('.collapse .in').removeClass('in').height(0);    
+              });
         </script>
     </body>
 </html>

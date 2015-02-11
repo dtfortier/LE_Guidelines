@@ -109,6 +109,11 @@ a.list-group-item-success {color: #333;}
 
 /* Icons
 ---------------------------------------------------------------------------- */
+.sg-icons {margin: 0 -10px 20px;overflow: hidden;}
+.sg-icons-list ul {padding-left: 0;list-style: none;}
+.sg-icons li {float: left;width: 25%;height: 91px;padding: 10px;font-size: 10px;line-height: 1.4;text-align: center;background-color: #f9f9f9;border: 1px solid #fff;}
+.sg-icons .icon {margin-top: 5px;margin-bottom: 10px;font-size: 24px;}
+.sg-icons .sg-icons-class {display: block;text-align: center;word-wrap: break-word;}
 
 @font-face {
 	font-family: 'icomoon';
@@ -162,7 +167,6 @@ a.list-group-item-success {color: #333;}
 .forms:before {content: "\f022";font-family: FontAwesome;font-style: normal;font-weight: normal;}
 .dollar-sign:before {content: "\f155";font-family: FontAwesome;font-style: normal;font-weight: normal;}
 .ctr:before {content: "\f0a6";font-family: FontAwesome;font-style: normal;font-weight: normal;}
-.avgPos:before {content: "\f080";font-family: FontAwesome;font-style: normal;font-weight: normal;}
 .pageViews:before {content: "\f06e";font-family: FontAwesome;font-style: normal;font-weight: normal;}
 .filterToolTip:before {content: "\f059";font-family: FontAwesome;font-style: normal;font-weight: normal;}
 .subTabToolTip:before {content: "\f059";font-family: FontAwesome;font-style: normal;font-weight: normal;}
