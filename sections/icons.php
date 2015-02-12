@@ -49,16 +49,13 @@
                                       <span class="sg-icons-class">listen</span>
                                     </li>
                                     <li>
-                                      <span class="sg-icons icon cursor" aria-hidden="true"></span>
-                                      <span class="sg-icons-class">cursor</span>
-                                    </li>
-                                    <li>
                                       <span class="sg-icons icon calls" aria-hidden="true"></span>
                                       <span class="sg-icons-class">calls</span>
                                     </li>
                                     <li>
                                       <span class="sg-icons icon line-graph" aria-hidden="true"></span>
                                       <span class="sg-icons-class">line-graph</span>
+                                      <span class="sg-icons-usage">Quick Stats SEM: Views, Quick Stats Performance Overview: Views</span>
                                     </li>
                                     <li>
                                       <span class="sg-icons icon avgPos" aria-hidden="true"></span>
@@ -67,6 +64,7 @@
                                     <li>
                                       <span class="sg-icons icon eye" aria-hidden="true"></span>
                                       <span class="sg-icons-class">eye</span>
+                                      <span class="sg-icons-usage">Quick Stats SEM: Views, Quick Stats Performance Overview: Views</span>
                                     </li>
                                     <li>
                                       <span class="sg-icons icon emails" aria-hidden="true"></span>
@@ -112,6 +110,82 @@
                                       <span class="sg-icons icon fa fa-envelope" aria-hidden="true"></span>
                                       <span class="sg-icons-class">fa-envelope</span>
                                     </li>
+                                    <li>
+                                      <span class="sg-icons icon fa fa-comments" aria-hidden="true"></span>
+                                      <span class="sg-icons-class">fa-comments</span>
+                                    </li>
+                                    <li>
+                                      <span class="sg-icons icon fa fa-user" aria-hidden="true"></span>
+                                      <span class="sg-icons-class">fa-user</span>
+                                    </li>
+                                    <li>
+                                      <span class="sg-icons icon fa fa-bullhorn" aria-hidden="true"></span>
+                                      <span class="sg-icons-class">fa-bullhorn</span>
+                                      <span class="sg-icons-usage">Left Nav: Quick Post</span>
+                                    </li>
+                                    <li>
+                                      <span class="sg-icons icon fa fa-th" aria-hidden="true"></span>
+                                      <span class="sg-icons-class">fa-th</span>
+                                    </li>
+                                    <li>
+                                      <span class="sg-icons icon fa fa-th-large" aria-hidden="true"></span>
+                                      <span class="sg-icons-class">fa-th-large</span>
+                                    </li>
+                                    <li>
+                                      <span class="sg-icons icon fa fa-picture-o" aria-hidden="true"></span>
+                                      <span class="sg-icons-class">fa-picture-o</span>
+                                    </li>
+                                    <li>
+                                      <span class="sg-icons icon fa fa-twitter fa-lg" aria-hidden="true"></span>
+                                      <span class="sg-icons-class">fa-twitter</span>
+                                      <span class="sg-icons-usage">Left Nav: Quick Post Twitter toggle</span>
+                                    </li>
+                                    <li>
+                                      <span class="sg-icons icon fa fa-facebook fa-lg" aria-hidden="true"></span>
+                                      <span class="sg-icons-class">fa-facebook</span>
+                                      <span class="sg-icons-usage">Left Nav: Quick Post Facebook toggle</span>
+                                    </li>
+                                    <li>
+                                      <span class="sg-icons icon fa fa-rss" aria-hidden="true"></span>
+                                      <span class="sg-icons-class">fa-rss</span>
+                                      <span class="sg-icons-usage">Left Nav: Quick Post rss link</span>
+                                    </li>
+                                    <li>
+                                      <span class="sg-icons icon fa fa-check-circle" aria-hidden="true"></span>
+                                      <span class="sg-icons-class">fa-check-circle</span>
+                                      <span class="sg-icons-usage">Left-Nav: Suggested Apps: Activate, App name</span>
+                                    </li>
+                                    <li>
+                                      <span class="sg-icons icon fa fa-suitcase fa-fw" aria-hidden="true"></span>
+                                      <span class="sg-icons-class">fa-suitcase fa-fw</span>
+                                      <span class="sg-icons-usage">Header: Welcome, User Dropdown: Change Account, and Inbox header</span>
+                                    </li>
+                                    <li>
+                                      <span class="sg-icons icon fa fa-fw fa-gear" aria-hidden="true"></span>
+                                      <span class="sg-icons-class">fa-fw fa-gear</span>
+                                      <span class="sg-icons-usage">Header: Welcome, User Dropdown: Settings</span>
+                                    </li>
+                                    <li>
+                                      <span class="sg-icons icon fa fa-fw fa fa-file-text-o" aria-hidden="true"></span>
+                                      <span class="sg-icons-class">fa-fw fa fa-file-text-o</span>
+                                      <span class="sg-icons-usage">Header: Welcome, User Dropdown: Terms & Conditions</span>
+                                    </li>
+                                    <li>
+                                      <span class="sg-icons icon fa fa fa-sign-in fa-fw" aria-hidden="true"></span>
+                                      <span class="sg-icons-class">fa fa-sign-in fa-fw</span>
+                                      <span class="sg-icons-usage">Header: Welcome, User Dropdown: Logout</span>
+                                    </li>
+                                    <li>
+                                      <span class="sg-icons icon fa fa-usd fa-lg fa-lg" aria-hidden="true"></span>
+                                      <span class="sg-icons-class">fa-usd fa-lg fa-lg</span>
+                                      <span class="sg-icons-usage">Quick Stats SEM: Spend, Quick Stats SEM: CPC, Quick Stats SEM: CPV</span>
+                                    </li>
+                                    <li>
+                                      <span class="sg-icons icon fa fa-eye fa-lg fa-lg" aria-hidden="true"></span>
+                                      <span class="sg-icons-class">fa-eye fa-lg fa-lg</span>
+                                      <span class="sg-icons-usage">Quick Stats SEM: Views, Quick Stats Performance Overview: Views</span>
+                                    </li>
+                                    
                                 </ul>
                             </div>
                         </div>
