@@ -1,11 +1,12 @@
 <html>
     <head>
-        <?php require 'header.php'; ?>
+        <?php require 'head.php'; ?>
     </head>
     
     <body data-spy="scroll" data-target=".sidebar-nav">
+       <?php require 'header.php'; ?>
         <div id="wrapper" class="">
-            
+             
                 <?php require 'nav.php'; ?>
             <!-- Page Content -->
             <div id="page-content-wrapper">

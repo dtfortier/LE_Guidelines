@@ -18,6 +18,9 @@
     padding-left: 250px;
 }
 
+#header {background:#333;border-bottom:2px solid #333;width:100%;}
+
+
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
@@ -25,6 +28,7 @@
     width: 0;
     height: 100%;
     margin-left: -250px;
+    margin-top: 52px;
     overflow-y: auto;
     background: #EDF0F0;
     -webkit-transition: all 0.5s ease;

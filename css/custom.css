@@ -13,6 +13,13 @@ p{color: rgba(65,65,65,1);font-size: 15px;line-height: 145%;margin-bottom: 15px;
 ---------------------------------------------------------------------------- */
 .wrap {background: rgba(168, 168, 168, 0.2);padding: 20px;margin-top: 20px;}
 
+/* Header
+---------------------------------------------------------------------------- */
+#header {color:#fff;}
+#header h1 {color: #fff;font-size: 16px;padding: 18px 0 15px;margin: 0;}
+#header .navbar-nav>li>a:hover {border-bottom:2px solid #337ab7;background-color:#333;}
+#header .navbar-nav>li>a {border-bottom:2px solid #333;color:#fff;cursor:pointer;}
+
 /* Sections
 ---------------------------------------------------------------------------- */
 h1 {font-family:"Helvetica";font-size: 2.8em;font-weight: 100;margin: 0 0 36px 0;padding-top: 20px;color: #333;}

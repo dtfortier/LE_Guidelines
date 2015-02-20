@@ -2,11 +2,7 @@
             <div id="sidebar-wrapper">
                 <div class="list-group-panel">
                     <ul class="sidebar-nav">
-                        <li class="sidebar-brand">
-                            <a href="#">
-                               Localedge Style Guidelines
-                            </a>
-                        </li>
+                        
                         
                          <div class="list-group panel">
     <a href="#nav1" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#intro">UI Design Basics</a>
