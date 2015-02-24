@@ -16,29 +16,36 @@ p{color: rgba(65,65,65,1);font-size: 15px;line-height: 145%;margin-bottom: 15px;
 /* Header
 ---------------------------------------------------------------------------- */
 #header {color:#fff;}
-#header h1 {color: #fff;font-size: 16px;padding: 18px 0 15px;margin: 0;}
-#header .navbar-nav>li>a:hover {border-bottom:2px solid #337ab7;background-color:#333;}
-#header .navbar-nav>li>a {border-bottom:2px solid #333;color:#fff;cursor:pointer;}
+#header h1 {color: #fff;font-size: 16px;padding: 13px 0 15px;margin: 0;}
+#header .navbar-nav>li>a {color:#fff;cursor:pointer;padding: 10px 8px 10px;}
+#header .navbar-nav>li>a:hover {color:#52A1E5;background-color:#333;}
 
 /* Sections
 ---------------------------------------------------------------------------- */
-h1 {font-family:"Helvetica";font-size: 2.8em;font-weight: 100;margin: 0 0 36px 0;padding-top: 20px;color: #333;}
-h2 {font-family:"Helvetica"; color:#B0B0B0;font-size: 18px;margin-bottom: 10px;}
+section h1 {font-size: 26px;font-weight: 100;margin: 0 0 36px 0;padding-top: 20px;color: #333;}
+section h2 {color:#333;font-size: 18px;margin: 8px 0 13px;text-align:center;}
+section p {color:#333;font-size: 14px;line-height:22px;}
 
-.buttons-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
-.colors-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
-.fonts-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
-.grids-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
-.icons-section {padding-top:50px;background: #fff;margin-bottom: 60px;}
-.intro-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
-.modals-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
-.navigations-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
-.notifications-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
-.paging-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
-.tables-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
+section .buttons-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
+section .colors-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
+section .fonts-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
+section .grids-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
+section .icons-section {padding-top:50px;background: #fff;margin-bottom: 60px;}
+section .intro-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
+section .modals-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
+section .navigations-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
+section .notifications-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
+section .paging-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
+section .tables-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
 
 /* Containers
 ---------------------------------------------------------------------------- */
+section .content-wrap {background:#EDF0F0; border-radius:3px;margin-top:20px; padding: 10px 35px;}
+
+section .content-icon {position:relative;margin: -8px -32px;}
+section .content-icon i.fa-question-circle {position:absolute;font-size:31px;color:#BEBEBE;}
+section h2 i.fa-question-circle {position:absolute;font-size:31px;color:#BEBEBE;}
+
 
 
 /* Headings
@@ -47,7 +54,7 @@ h1,h2,h3 {font-weight: normal;}
 
 
 .sg-customer-info h1 {color: #447DB3;font-size: 26px;font-weight: bold;margin:3px 0;border-bottom:none;}
-.sg-customer-info h2 {color: #000000;font-size: 16px;font-weight: bold;margin:3px 0;border-bottom:none;font-family: 'PT Sans', sans-serif;}
+.sg-customer-info h2 {color: #000000;font-size: 16px;font-weight: bold;margin:3px 0;border-bottom:none;font-family: 'PT Sans', sans-serif;text-align:left;}
 .sg-customer-info h3 {color: #909FAC;font-size: 13px;margin:3px 0;border-bottom:none;}
 
 
@@ -186,3 +193,5 @@ a.list-group-item-success {color: #333;}
 .subTabToolTip:before {content: "\f059";font-family: FontAwesome;font-style: normal;font-weight: normal;}
 .carrot-left {content: "\f0d9";font-family: FontAwesome;font-style: normal;font-weight: normal;}
 .carrot-right {content: "\f0da";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+
+
