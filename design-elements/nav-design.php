@@ -1,4 +1,4 @@
- <!-- Sidebar -->
+            <!-- Sidebar -->
             <div id="sidebar-wrapper">
                 <div class="list-group-panel">
                     <ul class="sidebar-nav">
@@ -13,6 +13,7 @@
             </div>
            
              <!-- /#sidebar-wrapper -->
+            
             
            
             

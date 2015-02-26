@@ -5,9 +5,17 @@
 */
 
 
-body {font-family: 'PT Sans', sans-serif;position: relative;}
+body {background-color: #EDF0F0;font-family: 'PT Sans', sans-serif;position: relative;}
 a{}
 p{color: rgba(65,65,65,1);font-size: 15px;line-height: 145%;margin-bottom: 15px;}
+
+/* Section Content Wrap
+---------------------------------------------------------------------------- */
+section .content-wrap {background:#fff; box-shadow: 0 0 1px 0 rgba(44, 54, 67, 0.1);position: relative;margin: 20px 0 10px;border-radius:3px;padding: 10px 35px;}
+.styleguide-intro {padding: 25px;margin-bottom: 20px;}
+.copy-body {color: #3b444f;}
+
+
 
 /* Helpers
 ---------------------------------------------------------------------------- */
@@ -20,50 +28,47 @@ p{color: rgba(65,65,65,1);font-size: 15px;line-height: 145%;margin-bottom: 15px;
 #header .navbar-nav>li>a {color:#fff;cursor:pointer;padding: 10px 8px 10px;}
 #header .navbar-nav>li>a:hover {color:#52A1E5;background-color:#333;}
 
+a.site-name {text-decoration: none;color:#fff;}
+a.site-name:hover {color:#fff;}
+
 /* Sections
 ---------------------------------------------------------------------------- */
-section h1 {font-size: 26px;font-weight: 100;margin: 0 0 36px 0;padding-top: 20px;color: #333;}
-section h2 {color:#333;font-size: 18px;margin: 8px 0 13px;text-align:center;}
+section h1 {font-size: 24px;line-height: 1.15em;margin: 0 0 36px 0;padding-top: 20px;color: #297CBB;}
+section h2 {color:#333;font-size: 18px;margin: 8px 0 13px;}
+section h2.center {text-align:center;}
 section p {color:#333;font-size: 14px;line-height:22px;}
 
-section .buttons-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
-section .colors-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
-section .fonts-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
-section .grids-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
-section .icons-section {padding-top:50px;background: #fff;margin-bottom: 60px;}
-section .intro-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
-section .modals-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
-section .navigations-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
-section .notifications-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
-section .paging-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
-section .tables-section {padding-top: 50px;background: #fff;margin-bottom: 60px;}
+section .buttons-section {padding-top: 50px;margin-bottom: 60px;}
+section .colors-section {padding-top: 50px;margin-bottom: 60px;}
+section .typography-section {padding-top: 50px;margin-bottom: 60px;}
+section .grids-section {padding-top: 50px;margin-bottom: 60px;}
+section .icons-section {padding-top:50px;margin-bottom: 60px;}
+section .intro-section {padding-top: 50px;margin-bottom: 60px;}
+section .modals-section {padding-top: 50px;margin-bottom: 60px;}
+section .navigations-section {padding-top: 50px;margin-bottom: 60px;}
+section .notifications-section {padding-top: 50px;margin-bottom: 60px;}
+section .paging-section {padding-top: 50px;margin-bottom: 60px;}
+section .tables-section {padding-top: 50px;margin-bottom: 60px;}
 
 /* Containers
 ---------------------------------------------------------------------------- */
-section .content-wrap {background:#EDF0F0; border-radius:3px;margin-top:20px; padding: 10px 35px;}
 
 section .content-icon {position:relative;margin: -8px -32px;}
 section .content-icon i.fa-question-circle {position:absolute;font-size:31px;color:#BEBEBE;}
-section h2 i.fa-question-circle {position:absolute;font-size:31px;color:#BEBEBE;}
-
-
+section h2 i {position:relative;vertical-align: middle;}
+section i.fa-question-circle {font-size: 31px;color: #BEBEBE;padding: 0px 4px 3px;}
 
 /* Headings
 ---------------------------------------------------------------------------- */
 h1,h2,h3 {font-weight: normal;}
 
-
-.sg-customer-info h1 {color: #447DB3;font-size: 26px;font-weight: bold;margin:3px 0;border-bottom:none;}
-.sg-customer-info h2 {color: #000000;font-size: 16px;font-weight: bold;margin:3px 0;border-bottom:none;font-family: 'PT Sans', sans-serif;text-align:left;}
-.sg-customer-info h3 {color: #909FAC;font-size: 13px;margin:3px 0;border-bottom:none;}
-
-
 /* Navigation
 ---------------------------------------------------------------------------- */
 .list-group.panel > .list-group-item {}
 .list-group-submenu {margin-left:20px;}
-.list-group-item-success {color: #333;background-color: #EDF0F0;}
+.list-group-item-success {color: #333;background-color:#fff; /*#EDF0F0;*/}
 .list-group-item {border: 1px solid #E0E0E0;}
+list-group-item .nav-item .child {background:#e0e0e0;}
 a.list-group-item-success:focus, a.list-group-item-success:hover {color: #333;background-color: #ccc;border-radius:0;}
 a.list-group-item-success {color: #333;}
 
@@ -112,7 +117,51 @@ a.list-group-item-success {color: #333;}
 .sg-color--d .sg-color-swatch {background: #edeced;}
 .sg-color--e .sg-color-swatch {background: #cbcccb;}
 .sg-color--f .sg-color-swatch {background: #4c5965;}
-.sg-color--g .sg-color-swatch {background: #364149;}
+.sg-color--g .sg-color-swatch {background: #364049;}
+.sg-color--h .sg-color-swatch {background: #91a0ad;}
+.sg-color--i .sg-color-swatch {background: #AFADAD;}
+
+/* Fonts
+---------------------------------------------------------------------------- */
+section .content-wrap.typography {min-height: 230px;}
+
+section .typography-section .headings h1 {color: #447DB3;font-size: 26px;margin:3px 0;border-bottom:none;}
+section .typography-section .headings h2 {font-family: 'pt_sansbold', sans-serif;color: #477DB3;font-size: 16px;text-transform: uppercase;border-bottom:none;margin: 10px 0;font-family: 'PT Sans', sans-serif;text-align:left;}
+section .typography-section .headings h3 {color: #4C5965;font-size: 16px;font-weight: bold;border-bottom:none;margin: 10px 0;}
+
+section .typography-section .content p.table-column-heads {font-size: 14px;color: #4C5965;}
+section .typography-section .content p.table-rows {font-size: 14px;color: #4C5965;}
+section .typography-section .content p.selector-label {font-weight: bold;color: #4c5965;font-size: 14px;}
+section .typography-section .content p.selector-content {color: #909FAC;font-size: 13px;}
+
+section .typography-section .navigation li,
+section .typography-section .links li {list-style: none;margin:13px 0;}
+section .typography-section .navigation a.left-nav-parent {color: #fff;font-size: 14px;background-color: #4C5965;padding:5px;}
+section .typography-section .navigation a.left-nav-parent:hover {color: #fff;text-decoration:none;cursor:pointer;}
+section .typography-section .navigation a.left-nav-child {color: #CBCCCB;font-size: 14px;background: #364049;padding:5px;}
+section .typography-section .navigation a.left-nav-child:hover {color: #fff;text-decoration:none;cursor:pointer;}
+section .typography-section .navigation a.left-nav-child-child {color: #CBCCCB;font-size: 14px;background: #323538;padding:5px;}
+section .typography-section .navigation a.left-nav-child-child:hover {color: #fff;text-decoration:none;cursor:pointer;}
+section .typography-section .navigation a.header-nav-parent {color: #91a0ad;font-size: 14px;}
+section .typography-section .navigation a.header-nav-parent:hover {color: #364049;text-decoration:none;cursor:pointer;}
+section .typography-section .navigation a.header-nav-child {color: #91a0ad;font-size: 14px;}
+section .typography-section .navigation a.header-nav-child:hover {color:#91a0ad;text-decoration:none;cursor:pointer;}
+
+section .typography-section .links a.view-all {color: #477DB3;font-size:14px;}
+section .typography-section .links a.view-all:hover {text-decoration:none;cursor:pointer;}
+
+/* Buttons
+---------------------------------------------------------------------------- */
+
+.btn-upsell {color: #fff;background-color: #f79720;border-color: #D58016;}
+.btn-upsell:hover{color: #fff;background-color: #D58016;border-color: #B36D15;}
+.btn-cancel {color: #333;background-color: #fff;border-color: #ccc;}
+.btn-cancel:hover {color: #333;background-color: #eee;border-color: #ccc;}
+.btn-standard-dark {background-color:#737373;color:#fff;border:none;}
+.btn-standard-dark:hover {background-color: #5f5e5e;color:#fff;}
+.btn-standard-light {color:#737373;background-color:#e0e0e0;border:none;}
+.btn-standard-light:hover {color:#737373;background-color: #C8C6C6;}
+
 
 /* Fancy
 ---------------------------------------------------------------------------- */
@@ -124,6 +173,11 @@ a.list-group-item-success {color: #333;}
           transition: all 0.6s ease-out;
 }
 
+@media (all) {
+::selection {
+background-color: rgba(40, 138, 214, 0.25);
+}
+}
 
 
 /* Icons
