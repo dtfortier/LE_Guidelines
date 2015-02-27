@@ -8,6 +8,7 @@
                             <a href="#colors" class="list-group-item nav-item" data-url="colors.php">Colors</a>
                             <a href="#typography" class="list-group-item nav-item" data-url="typography.php">Typography</a>
                             <a href="#icons" class="list-group-item nav-item" data-url="icons.php">Icons</a>
+                            <a href="#sorting" class="list-group-item nav-item" data-url="sorting.php">Sorting</a>
                         </div>
                     </ul> 
                 </div>     

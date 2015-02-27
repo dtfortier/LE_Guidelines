@@ -40,7 +40,6 @@ section p {color: #3b444f;font-size: 15px;line-height: 22px;margin-bottom: 14px;
 
 section .buttons-section {padding-top: 50px;margin-bottom: 60px;}
 section .colors-section {padding-top: 50px;margin-bottom: 60px;}
-section .typography-section {padding-top: 50px;margin-bottom: 60px;}
 section .grids-section {padding-top: 50px;margin-bottom: 60px;}
 section .icons-section {padding-top:50px;margin-bottom: 60px;}
 section .intro-section {padding-top: 50px;margin-bottom: 60px;}
@@ -48,7 +47,9 @@ section .modals-section {padding-top: 50px;margin-bottom: 60px;}
 section .navigations-section {padding-top: 50px;margin-bottom: 60px;}
 section .notifications-section {padding-top: 50px;margin-bottom: 60px;}
 section .paging-section {padding-top: 50px;margin-bottom: 60px;}
+section .sorting-section {padding-top: 50px;margin-bottom: 60px;}
 section .tables-section {padding-top: 50px;margin-bottom: 60px;}
+section .typography-section {padding-top: 50px;margin-bottom: 60px;}
 
 /* Containers
 ---------------------------------------------------------------------------- */
