@@ -51,7 +51,7 @@
                 var hash = window.location.hash;
                 
                 if(!hash || hash === "#") {
-                    hash = "#intro"
+                    hash = "#buttons"
                 }
                 
                 var current = $("[href=" + hash + "]").data('url');

@@ -2,23 +2,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Colors</h1>
-                    <div class="sg-color sg-color--a"><span class="sg-color-swatch"><span class="sg-animated">#477DB3</span></span></div>
-                    <div class="sg-color sg-color--b"><span class="sg-color-swatch"><span class="sg-animated">#f79720</span></span></div>
-                    <div class="sg-color sg-color--c"><span class="sg-color-swatch"><span class="sg-animated">#f9f9f9</span></span></div>
-                    <div class="sg-color sg-color--d"><span class="sg-color-swatch"><span class="sg-animated">#edeced</span></span></div>
-                    <div class="sg-color sg-color--e"><span class="sg-color-swatch"><span class="sg-animated">#cbcccb</span></span></div>
-                    <div class="sg-color sg-color--h"><span class="sg-color-swatch"><span class="sg-animated">#91a0ad</span></span></div>
-                    <div class="sg-color sg-color--f"><span class="sg-color-swatch"><span class="sg-animated">#4c5965</span></span></div>
-                    <div class="sg-color sg-color--g"><span class="sg-color-swatch"><span class="sg-animated">#364049</span></span></div>
-                    
-                    
-                </div>
+                    <div class="content-wrap">
+                        <h1>Colors</h1>
+                        <div class="sg-color sg-color--a"><span class="sg-color-swatch"><span class="sg-animated">#477DB3</span></span></div>
+                        <div class="sg-color sg-color--b"><span class="sg-color-swatch"><span class="sg-animated">#f79720</span></span></div>
+                        <div class="sg-color sg-color--c"><span class="sg-color-swatch"><span class="sg-animated">#f9f9f9</span></span></div>
+                        <div class="sg-color sg-color--d"><span class="sg-color-swatch"><span class="sg-animated">#edeced</span></span></div>
+                        <div class="sg-color sg-color--e"><span class="sg-color-swatch"><span class="sg-animated">#cbcccb</span></span></div>
+                        <div class="sg-color sg-color--h"><span class="sg-color-swatch"><span class="sg-animated">#91a0ad</span></span></div>
+                        <div class="sg-color sg-color--f"><span class="sg-color-swatch"><span class="sg-animated">#4c5965</span></span></div>
+                        <div class="sg-color sg-color--g"><span class="sg-color-swatch"><span class="sg-animated">#364049</span></span></div>
+                    </div>
+                
                 <div class="clearfix"></div>
                 
                 <div class="content-wrap">
-                    
-                    
                     <h2><i class="fa fa-question-circle"></i> Where Are These Colors Used?</h2>
                     <p>
                         <ul>
@@ -32,6 +30,7 @@
                             <li>darkest grey #364049 - This will be used for left nav child link background, and header nav icons color</li>
                         </ul>
                     </p>
+                </div>
                 </div>
             </div>
         </div>

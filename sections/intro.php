@@ -2,8 +2,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Localedge Design Standards Basics</h1>
                     <div class="content-wrap">
+                    <h1>Localedge Design Standards Basics</h1>
+                    
                         <h2>This is the Introductory Page</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

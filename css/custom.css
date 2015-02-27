@@ -7,11 +7,11 @@
 
 body {background-color: #EDF0F0;font-family: 'PT Sans', sans-serif;position: relative;}
 a{}
-p{color: rgba(65,65,65,1);font-size: 15px;line-height: 145%;margin-bottom: 15px;}
+p{color: #3b444f;font-size: 15px;line-height: 22px;margin-bottom: 14px;font-weight:100;}
 
 /* Section Content Wrap
 ---------------------------------------------------------------------------- */
-section .content-wrap {background:#fff; box-shadow: 0 0 1px 0 rgba(44, 54, 67, 0.1);position: relative;margin: 20px 0 10px;border-radius:3px;padding: 10px 35px;}
+section .content-wrap {background:#fff; box-shadow: 0 0 1px 0 rgba(44, 54, 67, 0.1);position: relative;margin: 29px 0 10px;border-radius:3px;padding: 10px 35px;}
 .styleguide-intro {padding: 25px;margin-bottom: 20px;}
 .copy-body {color: #3b444f;}
 
@@ -33,10 +33,10 @@ a.site-name:hover {color:#fff;}
 
 /* Sections
 ---------------------------------------------------------------------------- */
-section h1 {font-size: 24px;line-height: 1.15em;margin: 0 0 36px 0;padding-top: 20px;color: #297CBB;}
-section h2 {color:#333;font-size: 18px;margin: 8px 0 13px;}
+section h1 {font-size: 24px;line-height: 1.15em;margin: 0 0 36px 0;padding-top: 8px;color: #297CBB;}
+section h2 {font-size: 13px;color: #99a9b3;text-transform: uppercase;letter-spacing: 0.05em;font-weight: bold;}
 section h2.center {text-align:center;}
-section p {color:#333;font-size: 14px;line-height:22px;}
+section p {color: #3b444f;font-size: 15px;line-height: 22px;margin-bottom: 14px;font-weight:100;}
 
 section .buttons-section {padding-top: 50px;margin-bottom: 60px;}
 section .colors-section {padding-top: 50px;margin-bottom: 60px;}
@@ -67,10 +67,14 @@ h1,h2,h3 {font-weight: normal;}
 .list-group.panel > .list-group-item {}
 .list-group-submenu {margin-left:20px;}
 .list-group-item-success {color: #333;background-color:#fff; /*#EDF0F0;*/}
-.list-group-item {border: 1px solid #E0E0E0;}
-list-group-item .nav-item .child {background:#e0e0e0;}
+.list-group-item {border: 1px solid #F9F9F9;}
+.list-group-item .nav-item .child {background:#e0e0e0;}
 a.list-group-item-success:focus, a.list-group-item-success:hover {color: #333;background-color: #ccc;border-radius:0;}
 a.list-group-item-success {color: #333;}
+
+.list-group-item.label {font-weight: bold;font-size:13px;color: #297CBB;text-transform: uppercase;letter-spacing: 0.1em;text-align:left;margin: 0;padding: 5px 0px;}
+.panel {border: none;}
+a.list-group-item.label {padding: 16px 0 12px 15px;}
 
 /* Colors
 ---------------------------------------------------------------------------- */
@@ -125,17 +129,21 @@ a.list-group-item-success {color: #333;}
 ---------------------------------------------------------------------------- */
 section .content-wrap.typography {min-height: 230px;}
 
-section .typography-section .headings h1 {color: #447DB3;font-size: 26px;margin:3px 0;border-bottom:none;}
-section .typography-section .headings h2 {font-family: 'pt_sansbold', sans-serif;color: #477DB3;font-size: 16px;text-transform: uppercase;border-bottom:none;margin: 10px 0;font-family: 'PT Sans', sans-serif;text-align:left;}
-section .typography-section .headings h3 {color: #4C5965;font-size: 16px;font-weight: bold;border-bottom:none;margin: 10px 0;}
+section .typography-section .headings {}
+section .typography-section .headings h1 {color: #447DB3;font-size: 26px;margin:3px 0;padding-bottom: 15px;border-bottom: 1px solid #f5f5f5;}
+section .typography-section .headings h2 {font-family: 'pt_sansbold', sans-serif;color: #477DB3;font-size: 16px;text-transform: uppercase;border-bottom:none;margin: 10px 0;font-family: 'PT Sans', sans-serif;text-align:left;padding-bottom: 15px;border-bottom: 1px solid #f5f5f5;}
+section .typography-section .headings h3 {color: #4C5965;font-size: 16px;font-weight: bold;border-bottom:none;margin: 10px 0;padding-bottom: 15px;border-bottom: 1px solid #f5f5f5;}
 
-section .typography-section .content p.table-column-heads {font-size: 14px;color: #4C5965;}
-section .typography-section .content p.table-rows {font-size: 14px;color: #4C5965;}
-section .typography-section .content p.selector-label {font-weight: bold;color: #4c5965;font-size: 14px;}
-section .typography-section .content p.selector-content {color: #909FAC;font-size: 13px;}
+section .typography-section .content {padding-top:20px;}
+section .typography-section .content p.table-column-heads {font-size: 15px;color: #4C5965;padding-bottom: 15px;border-bottom: 1px solid #f5f5f5;line-height: 17px; }
+section .typography-section .content p.table-rows {font-size: 13px;color: #4C5965;padding-bottom: 15px;border-bottom: 1px solid #f5f5f5;line-height: 17px; }
+section .typography-section .content p.selector-label {font-weight: bold;color: #4c5965;font-size: 14px;padding-bottom: 15px;border-bottom: 1px solid #f5f5f5;line-height: 17px; }
+section .typography-section .content p.selector-content {color: #909FAC;font-size: 13px;padding-bottom: 15px;border-bottom: 1px solid #f5f5f5;line-height: 17px;}
 
+section .typography-section .navigation {padding-top:20px;}
 section .typography-section .navigation li,
 section .typography-section .links li {list-style: none;margin:13px 0;}
+section .typography-section .navigation p {padding-bottom: 15px;border-bottom: 1px solid #f5f5f5;}
 section .typography-section .navigation a.left-nav-parent {color: #fff;font-size: 14px;background-color: #4C5965;padding:5px;}
 section .typography-section .navigation a.left-nav-parent:hover {color: #fff;text-decoration:none;cursor:pointer;}
 section .typography-section .navigation a.left-nav-child {color: #CBCCCB;font-size: 14px;background: #364049;padding:5px;}
@@ -162,6 +170,15 @@ section .typography-section .links a.view-all:hover {text-decoration:none;cursor
 .btn-standard-light {color:#737373;background-color:#e0e0e0;border:none;}
 .btn-standard-light:hover {color:#737373;background-color: #C8C6C6;}
 
+/* Tables
+---------------------------------------------------------------------------- */
+
+section .tables-section .container.report {background: #EDECED;margin: 30px 0;padding:0 0 15px 0;border-radius:2px;}
+section .tables-section .reportTitle {background: #EDECED;padding: 10px;border-radius: 2px 2px 0px 0px;color: #477DB3;font-size: 16px;border-bottom: 1px solid #cfcfcf;text-transform: uppercase;}
+section .tables-section .table {background: #EDECED;}
+section .tables-section .table th {padding: 10px 10px;border-bottom: 2px solid #cccccc;font-size: 15px;color: #4C5965;font-weight: 400;}
+section .tables-section .table td {padding: 10px 10px;background: #F9F9F9;font-size: 13px;color: #4C5965;font-weight: 400;}
+section .tables-section .table-footer {padding:0 10px}
 
 /* Fancy
 ---------------------------------------------------------------------------- */

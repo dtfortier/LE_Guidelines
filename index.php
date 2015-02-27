@@ -54,7 +54,7 @@
                     hash = "#intro"
                 }
                 
-                var current = $("[href=" + hash + "]").data('url');
+                var current = $(".nav-item[href=" + hash + "]").data('url');
                 getContent(current);
             });
         </script>
